@@ -1,8 +1,22 @@
-import Homepage from '@/components/homepage/homapage'
 
+
+import Third from '@/components/thirdpage/third'
+import MainCard from '../components/maincard/maincard'
+import Home from './../components/homepage/homapage'
+import SourcesCard from './../components/sources/sources'
 function App(){
     return(
-<Homepage/>
+        <>
+
+
+<Home/>
+<MainCard/>
+<Third />
+<Third />
+
+
+</>
+       
     )
 }
 export default App

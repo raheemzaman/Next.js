@@ -1,4 +1,4 @@
-export default function Homepage() {
+ const Home =() => {
   return (
     <div className="container mx-auto  relative w-full">
       <div className="flex flex-col  lg:flex-row">
@@ -6,20 +6,20 @@ export default function Homepage() {
                 sm:w-[50%] md:w-[50%] lg:w-[360px] rounded-br-[80px] lg:rounded-br-[100px]">
     </div>
         <div className="flex-1">
-          <div className="h-auto h-[200px]  md:h-[300px] w-full flex items-center justify-center lg:pt-[100px] text-[#0f172b] bg-[#f7f9fc]">
+          <div className="h-auto h-[250px] p-3 md:h-[300px] w-full flex items-center justify-center lg:pt-[100px] text-[#0f172b] bg-[#f7f9fc]">
             <div className="max-w-xl  text-center md:text-center lg:text-left lg:ml-[40px]"> 
               <p className="text-[24px]   md:text-[24px] text-blue-500 lg:font-[400]">★ ★ ★ ★ ★</p>
-              <p className="text-[24px] px-3 font-[500] md:text-[24px] lg:text-[18px] font-normal leading-[28px] md:leading-[32px]">
+              <p className="text-[24px] pt-[10px] font-[500] md:text-[24px] lg:text-[20px] font-normal leading-[28px] md:leading-[32px]">
                 “This method of designing icons is genius. I wish I <br className="hidden md:block" /> had known this method a lot sooner.”
               </p>
-              <p className="mt-2 text-[18px] font-normal leading-[24px] md:text-[16px]  lg:text-[14px]">
+              <p className="mt-2 text-[18px] pt-[10px] font-normal leading-[20px] md:text-[16px]  lg:text-[14px]">
                 <span className="text-blue-500">--Stacey Solomon,</span> Founder at Retail Park
               </p>
             </div> 
           </div>
           <div className="mt-[10px] flex items-center justify-center text-center lg:text-left  lg:mt-[90px]">
             <div className="max-w-2xl p-4 lg:ml-[240px]">
-              <p className="text-[64px] tracking-tight text-left leading-[64px]  md:text-[64px] lg:text-[64px]  md:leading-[56px] lg:leading-[64px] font-bold font-sans text-[oklch(0.208_0.042_265.755)] ">
+              <p className="text-[35px] tracking-normal text-left leading-[37px]  md:text-[64px] lg:text-[64px]  md:leading-[56px] lg:leading-[64px] font-bold font-sans text-[oklch(0.208_0.042_265.755)] ">
                 Get lost in the world <br className="hidden md:block" /> of icon design.
               </p>
               <p className="mt-4 text-[24px] text-left font-[400]  text-[oklch(0.446 0.043 257.281)] md:text-[20px] leading-[28px] md:leading-[32px] font-normal lg:text-[24px]">
@@ -37,7 +37,7 @@ export default function Homepage() {
           </div>
         </div>
       </div>
-      <div className="absolute   top-[70px]  sm:w-[256px]  left-[100px]   md:w-[60%] md:left-[200px] lg:w-[30%] lg:top-[130px]">
+      <div className="absolute   top-[70px]  w-[256px]  left-[70px]   md:w-[60%] md:left-[200px] lg:w-[30%] lg:top-[130px]">
   <div className="bg-[url(/assets/images/cover.webp)]
                   h-[342px] sm:h-[342px] md:h-[505px] lg:h-[629px] 
                   w-[256px] sm:w-[256px] md:w-full lg:w-[470px] 
@@ -46,3 +46,6 @@ export default function Homepage() {
     </div>
   );
 }
+
+
+export default Home;
